@@ -1,0 +1,7 @@
+import Cocoa
+
+// 1 lbs = 0.4535924 kgs
+let pounds: Double = 4.0
+let kilograms: Double = pounds * 0.4535924
+
+print("4 pounds weighs about \(kilograms) kilograms.")
