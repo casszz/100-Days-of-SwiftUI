@@ -1,0 +1,15 @@
+import Cocoa
+
+// 1 cup = 8 oz = 16 tbsp = 48 tsp = 237 mL
+let cup: Double = 2.5
+let ounces: Double = cup * 8.326716
+let tablespoons: Double = cup * 16.0
+let teaspoons: Double = cup * 48.0
+let millilitre: Double = cup * 236.5875
+
+
+print("Two and a half cups are: ")
+print("\(ounces) oz")
+print("\(tablespoons) tbsp")
+print("\(teaspoons) tsp")
+print("\(millilitre) mL")
