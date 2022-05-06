@@ -1,0 +1,7 @@
+import Cocoa
+
+// 1 mph = 1.609344 kph
+let milesPerHour: Double = 60.0
+let kilometerPerHour: Double = milesPerHour * 1.609344
+
+print("While going \(milesPerHour) mph; kph seems much more impressive at \(kilometerPerHour).")
