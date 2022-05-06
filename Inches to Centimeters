@@ -1,7 +1,0 @@
-import Cocoa
-
-// 1 in = 2.54 cm
-let inch: Double = 66.0
-let centimeter: Double = inch * 2.54
-
-print("I am \(centimeter) tall.")
