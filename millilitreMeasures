@@ -1,0 +1,14 @@
+import Cocoa
+
+let cup: Double = millilitre * 0.004226766
+let ounce: Double = millilitre * 0.03381413
+let tablespoon: Double = millilitre * 0.06762826
+let teaspoon: Double = millilitre * 0.2028848
+let millilitre: Double = 444_444_444
+
+
+print("444,444,444 mL:")
+print("\(cup) cups")
+print("\(ounce) oz")
+print("\(tablespoon) tbsp")
+print("\(teaspoon) tsp")
