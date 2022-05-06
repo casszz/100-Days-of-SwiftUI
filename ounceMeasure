@@ -1,0 +1,13 @@
+import Cocoa
+
+let cup: Double = ounce * 0.1200954
+let ounce: Double = 32.0
+let tablespoon: Double = ounce * 1.921526
+let teaspoon: Double = ounce * 5.764578
+let millilitre: Double = ounce * 28.41306
+
+print("32oz of water is:")
+print("\(cup) cups of water")
+print("\(tablespoon) tablespoons of water")
+print("\(teaspoon) teaspoons of water")
+print("\(millilitre) millilitres of water")
