@@ -1,0 +1,39 @@
+import Cocoa
+
+/* GOALS:
+Create an array of stings, then write some code that prints the number of items in the array and also the number of unique items in the array.
+*/
+
+var greeting = ["Hello", "Hi", "Welcome", "Howdy"]
+print(greeting.count)
+
+var goodReads = ["Atlas Shrugged", "The Soverign Individual", "The Mandibles"]
+print(goodReads.count)
+
+var groceryShopping: [String] = [
+    "Cereal",
+    "Bread",
+    "Potatoes",
+    "Flour",
+    "Coffee"
+]
+groceryShopping.append("Rice")
+groceryShopping.append("Apples")
+print(groceryShopping.count)
+print(groceryShopping.sorted())
+
+var color = Set(["Red", "Green", "Yellow", "Blue", "Green"])
+print(color)
+
+var users = Set([
+    "Bob",
+    "Alice",
+    "Tony",
+    "Lisa",
+    "Todd",
+    "Tom",
+    "Jess"
+])
+users.insert("Leo")
+print(users.sorted)
+print(users.count)
